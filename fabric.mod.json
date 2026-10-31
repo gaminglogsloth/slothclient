@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "sloth",
+  "version": "${version}",
+  "name": "Sloth Client",
+  "description": "A visual overhaul client: themed HUD, screen glow, zoom, keystrokes and a mod menu on Right Shift.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.sloth.client.SlothClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
